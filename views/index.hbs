@@ -1,0 +1,54 @@
+<style>
+    #msgContainer {
+        height: 60vh;
+        overflow-y: auto;
+        margin: 24px auto;
+    }
+
+    .left {
+        background: #eee;
+        border: 2px solid #000;
+        padding: 6px;
+        width: 20rem;
+        border-radius: 4px;
+        float: left;
+        clear: both;
+        margin: 16px auto;
+    }
+
+    .center {
+        background: #eee;
+        border: 2px solid #000;
+        padding: 6px;
+        width: 20rem;
+        border-radius: 4px;
+        margin: auto;
+        clear: both;
+        margin: 16px auto;
+        text-align: center;
+    }
+
+    .right {
+        background: #eee;
+        border: 2px solid #000;
+        padding: 6px;
+        width: 20rem;
+        border-radius: 4px;
+        float: right;
+        clear: both;
+        margin: 16px auto;
+    }
+</style>
+
+<div class="container">
+    <div id="msgContainer" class="border p-4 rounded shadow-sm my-4"></div>
+
+    <form action="" method="" id="msgForm">
+        <div class="my-3">
+            <textarea name="msgInput" id="msgInput" rows="3" class="form-control"></textarea>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" id="submitBtn" class="btn btn-primary">Send</button>
+        </div>
+    </form>
+</div>
